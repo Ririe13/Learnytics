@@ -1,5 +1,4 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import learnyticsLogo from "@/assets/learnytics-logo.png";
 
 interface NavItem {
   title: string;
@@ -44,7 +43,7 @@ export const Navbar = () => {
           {/* Left - Logo and Brand */}
           <div className="flex items-center gap-3">
             <img
-              src={learnyticsLogo}
+              src="/learnytics-logo.png"
               alt="Learnytics Logo"
               className="h-10 w-10 object-contain"
             />
