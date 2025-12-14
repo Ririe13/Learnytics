@@ -212,10 +212,8 @@ async def get_insight(request: InsightRequest):
             print("Model not loaded, using fallback logic")
             style = "consistent_learner" # Simple default
             model_version = "v1_fallback_no_model"
-
-        # Note: Recommendation logic moved to Backend Service
         
-        # Calculate display metrics (subset of features or derived)
+        # Calculate display metrics
         # Mapping features back to display metrics roughly
         # Feature 2 is avg_modules_per_day -> learning_speed
         # Feature 3 is avg_duration -> avg_module_time
