@@ -93,17 +93,20 @@ class InsightResponse(BaseModel):
     recommendation: Optional[str] = None
     metrics: InsightMetrics
     model_version: str
+    model_config = {'protected_namespaces': ()}
 
 class BatchInsightResult(BaseModel):
     user_id: str
     insight: str
     recommendation: Optional[str] = None
     metrics: InsightMetrics
+    model_config = {'protected_namespaces': ()}
 
 class BatchResponse(BaseModel):
     results: List[BatchInsightResult]
     processed: int
     model_version: str
+    model_config = {'protected_namespaces': ()}
 
 class HealthResponse(BaseModel):
     status: str
