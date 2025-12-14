@@ -68,6 +68,5 @@ export const dummyRecords: StudentRecord[] = generateDummyRecords();
 
 // Export for easy replacement
 export function loadRecords(): StudentRecord[] {
-  // TODO: Replace this with API call or CSV import
   return dummyRecords;
 }

@@ -25,10 +25,6 @@ const RECOMMENDATIONS = {
 const fetchData = async (filters = {}) => {
   let query = supabase.from('student_learning_records').select('*');
 
-  // Note: View already handles most joins. 
-  // We can add server-side filtering here if needed, but for now fetching all for consistency with previous logic
-  // Optimally, we should filter by studentId or date on the DB side.
-
   const { data, error } = await query;
 
   if (error) {
