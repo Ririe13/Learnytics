@@ -1,0 +1,6 @@
+studentId,studentName,cohort,module,date,durationMinutes,score,completed
+s001,Andi,A25,Intro to Algorithms,2025-10-01T09:30:00Z,45,78,true
+s001,Andi,A25,Data Structures,2025-10-02T10:00:00Z,50,82,true
+s002,Budi,A25,Intro to Algorithms,2025-10-01T14:00:00Z,40,65,false
+s002,Budi,A25,Data Structures,2025-10-03T11:00:00Z,55,70,true
+s003,Citra,B26,Intro to Algorithms,2025-10-01T15:30:00Z,60,90,true

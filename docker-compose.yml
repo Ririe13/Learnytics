@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  ml-service:
+    build: ./ml-service
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: [ "CMD", "python", "-c", "import httpx; httpx.get('http://localhost:8000/health')" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - app-network
+
+  backend:
+    build: ./backend
+    ports:
+      - "9000:9000"
+    environment:
+      - PORT=9000
+      - ML_SERVICE_URL=http://ml-service:8000
+      - CORS_ORIGIN=*
+      - SUPABASE_URL=https://thpyfwwiryawlyuzduwm.supabase.co
+      - SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRocHlmd3dpcnlhd2x5dXpkdXdtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUyMTUyMjIsImV4cCI6MjA4MDc5MTIyMn0.K-hYgIT0BJRyXrzSP74DUisZe_fl7FmnOz-lieL0ZiI
+    depends_on:
+      ml-service:
+        condition: service_healthy
+    networks:
+      - app-network
+
+  frontend:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - VITE_API_URL=http://localhost:9000/api/v1
+    # Note: Frontend runs in browser, so it accesses backend via localhost mapped port 9000
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

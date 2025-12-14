@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  # Backend API (Node.js/Express)
+  backend:
+    build: ./backend
+    ports:
+      - "9000:9000"
+    environment:
+      - PORT=9000
+      - NODE_ENV=development
+      - ML_SERVICE_URL=http://ml-service:8000
+      - CORS_ORIGIN=http://localhost:8080
+    depends_on:
+      - ml-service
+    volumes:
+      - ./backend/src/data:/app/src/data
+    networks:
+      - learnytics
+
+  # ML Service (FastAPI/Python)
+  ml-service:
+    build: ./ml-service
+    ports:
+      - "8000:8000"
+    networks:
+      - learnytics
+
+  # Frontend (Vite/React) - for local development
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "8080:8080"
+    environment:
+      - VITE_API_BASE_URL=http://localhost:9000
+    depends_on:
+      - backend
+    networks:
+      - learnytics
+
+networks:
+  learnytics:
+    driver: bridge

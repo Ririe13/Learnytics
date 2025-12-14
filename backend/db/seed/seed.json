@@ -1,0 +1,612 @@
+[
+  {
+    "studentId": "s001",
+    "studentName": "Andi Pratama",
+    "cohort": "A25",
+    "module": "Intro to Algorithms",
+    "date": "2025-09-05T08:30:00.000Z",
+    "durationMinutes": 45,
+    "score": 85,
+    "completed": true
+  },
+  {
+    "studentId": "s001",
+    "studentName": "Andi Pratama",
+    "cohort": "A25",
+    "module": "Data Structures",
+    "date": "2025-09-07T10:00:00.000Z",
+    "durationMinutes": 60,
+    "score": 78,
+    "completed": true
+  },
+  {
+    "studentId": "s001",
+    "studentName": "Andi Pratama",
+    "cohort": "A25",
+    "module": "Sorting Algorithms",
+    "date": "2025-09-10T14:15:00.000Z",
+    "durationMinutes": 55,
+    "score": 82,
+    "completed": true
+  },
+  {
+    "studentId": "s001",
+    "studentName": "Andi Pratama",
+    "cohort": "A25",
+    "module": "Graph Theory",
+    "date": "2025-09-12T09:00:00.000Z",
+    "durationMinutes": 70,
+    "score": 88,
+    "completed": true
+  },
+  {
+    "studentId": "s001",
+    "studentName": "Andi Pratama",
+    "cohort": "A25",
+    "module": "Dynamic Programming",
+    "date": "2025-09-15T11:30:00.000Z",
+    "durationMinutes": 65,
+    "score": 75,
+    "completed": false
+  },
+  {
+    "studentId": "s002",
+    "studentName": "Budi Santoso",
+    "cohort": "A25",
+    "module": "Intro to Algorithms",
+    "date": "2025-09-05T09:00:00.000Z",
+    "durationMinutes": 40,
+    "score": 92,
+    "completed": true
+  },
+  {
+    "studentId": "s002",
+    "studentName": "Budi Santoso",
+    "cohort": "A25",
+    "module": "Data Structures",
+    "date": "2025-09-06T10:30:00.000Z",
+    "durationMinutes": 50,
+    "score": 95,
+    "completed": true
+  },
+  {
+    "studentId": "s002",
+    "studentName": "Budi Santoso",
+    "cohort": "A25",
+    "module": "Sorting Algorithms",
+    "date": "2025-09-08T13:00:00.000Z",
+    "durationMinutes": 45,
+    "score": 90,
+    "completed": true
+  },
+  {
+    "studentId": "s002",
+    "studentName": "Budi Santoso",
+    "cohort": "A25",
+    "module": "Graph Theory",
+    "date": "2025-09-10T08:00:00.000Z",
+    "durationMinutes": 55,
+    "score": 88,
+    "completed": true
+  },
+  {
+    "studentId": "s002",
+    "studentName": "Budi Santoso",
+    "cohort": "A25",
+    "module": "Dynamic Programming",
+    "date": "2025-09-12T14:00:00.000Z",
+    "durationMinutes": 75,
+    "score": 93,
+    "completed": true
+  },
+  {
+    "studentId": "s002",
+    "studentName": "Budi Santoso",
+    "cohort": "A25",
+    "module": "Complexity Analysis",
+    "date": "2025-09-14T10:00:00.000Z",
+    "durationMinutes": 60,
+    "score": 91,
+    "completed": true
+  },
+  {
+    "studentId": "s003",
+    "studentName": "Citra Dewi",
+    "cohort": "B25",
+    "module": "Intro to Algorithms",
+    "date": "2025-09-06T10:00:00.000Z",
+    "durationMinutes": 55,
+    "score": 72,
+    "completed": true
+  },
+  {
+    "studentId": "s003",
+    "studentName": "Citra Dewi",
+    "cohort": "B25",
+    "module": "Data Structures",
+    "date": "2025-09-08T11:00:00.000Z",
+    "durationMinutes": 65,
+    "score": 68,
+    "completed": true
+  },
+  {
+    "studentId": "s003",
+    "studentName": "Citra Dewi",
+    "cohort": "B25",
+    "module": "Sorting Algorithms",
+    "date": "2025-09-11T15:00:00.000Z",
+    "durationMinutes": 50,
+    "score": 75,
+    "completed": false
+  },
+  {
+    "studentId": "s003",
+    "studentName": "Citra Dewi",
+    "cohort": "B25",
+    "module": "Graph Theory",
+    "date": "2025-09-14T09:30:00.000Z",
+    "durationMinutes": 80,
+    "score": 70,
+    "completed": false
+  },
+  {
+    "studentId": "s004",
+    "studentName": "Dewi Lestari",
+    "cohort": "B25",
+    "module": "Intro to Algorithms",
+    "date": "2025-09-05T08:00:00.000Z",
+    "durationMinutes": 35,
+    "score": 88,
+    "completed": true
+  },
+  {
+    "studentId": "s004",
+    "studentName": "Dewi Lestari",
+    "cohort": "B25",
+    "module": "Data Structures",
+    "date": "2025-09-07T09:00:00.000Z",
+    "durationMinutes": 45,
+    "score": 85,
+    "completed": true
+  },
+  {
+    "studentId": "s004",
+    "studentName": "Dewi Lestari",
+    "cohort": "B25",
+    "module": "Sorting Algorithms",
+    "date": "2025-09-09T10:30:00.000Z",
+    "durationMinutes": 40,
+    "score": 82,
+    "completed": true
+  },
+  {
+    "studentId": "s004",
+    "studentName": "Dewi Lestari",
+    "cohort": "B25",
+    "module": "Graph Theory",
+    "date": "2025-09-11T14:00:00.000Z",
+    "durationMinutes": 60,
+    "score": 79,
+    "completed": true
+  },
+  {
+    "studentId": "s004",
+    "studentName": "Dewi Lestari",
+    "cohort": "B25",
+    "module": "Dynamic Programming",
+    "date": "2025-09-13T11:00:00.000Z",
+    "durationMinutes": 55,
+    "score": 77,
+    "completed": true
+  },
+  {
+    "studentId": "s004",
+    "studentName": "Dewi Lestari",
+    "cohort": "B25",
+    "module": "Complexity Analysis",
+    "date": "2025-09-15T08:30:00.000Z",
+    "durationMinutes": 50,
+    "score": 84,
+    "completed": true
+  },
+  {
+    "studentId": "s004",
+    "studentName": "Dewi Lestari",
+    "cohort": "B25",
+    "module": "Recursion Fundamentals",
+    "date": "2025-09-17T10:00:00.000Z",
+    "durationMinutes": 45,
+    "score": 86,
+    "completed": true
+  },
+  {
+    "studentId": "s005",
+    "studentName": "Eka Putra",
+    "cohort": "C25",
+    "module": "Intro to Algorithms",
+    "date": "2025-09-06T09:00:00.000Z",
+    "durationMinutes": 50,
+    "score": 65,
+    "completed": true
+  },
+  {
+    "studentId": "s005",
+    "studentName": "Eka Putra",
+    "cohort": "C25",
+    "module": "Data Structures",
+    "date": "2025-09-08T10:00:00.000Z",
+    "durationMinutes": 60,
+    "score": 62,
+    "completed": false
+  },
+  {
+    "studentId": "s005",
+    "studentName": "Eka Putra",
+    "cohort": "C25",
+    "module": "Sorting Algorithms",
+    "date": "2025-09-12T13:00:00.000Z",
+    "durationMinutes": 70,
+    "score": 68,
+    "completed": false
+  },
+  {
+    "studentId": "s006",
+    "studentName": "Fajar Hidayat",
+    "cohort": "C25",
+    "module": "Intro to Algorithms",
+    "date": "2025-09-05T10:00:00.000Z",
+    "durationMinutes": 45,
+    "score": 80,
+    "completed": true
+  },
+  {
+    "studentId": "s006",
+    "studentName": "Fajar Hidayat",
+    "cohort": "C25",
+    "module": "Data Structures",
+    "date": "2025-09-07T11:30:00.000Z",
+    "durationMinutes": 55,
+    "score": 78,
+    "completed": true
+  },
+  {
+    "studentId": "s006",
+    "studentName": "Fajar Hidayat",
+    "cohort": "C25",
+    "module": "Sorting Algorithms",
+    "date": "2025-09-10T09:00:00.000Z",
+    "durationMinutes": 50,
+    "score": 83,
+    "completed": true
+  },
+  {
+    "studentId": "s006",
+    "studentName": "Fajar Hidayat",
+    "cohort": "C25",
+    "module": "Graph Theory",
+    "date": "2025-09-13T14:30:00.000Z",
+    "durationMinutes": 65,
+    "score": 81,
+    "completed": true
+  },
+  {
+    "studentId": "s007",
+    "studentName": "Gita Anggraeni",
+    "cohort": "D25",
+    "module": "Intro to Algorithms",
+    "date": "2025-09-06T08:30:00.000Z",
+    "durationMinutes": 40,
+    "score": 94,
+    "completed": true
+  },
+  {
+    "studentId": "s007",
+    "studentName": "Gita Anggraeni",
+    "cohort": "D25",
+    "module": "Data Structures",
+    "date": "2025-09-07T09:30:00.000Z",
+    "durationMinutes": 35,
+    "score": 96,
+    "completed": true
+  },
+  {
+    "studentId": "s007",
+    "studentName": "Gita Anggraeni",
+    "cohort": "D25",
+    "module": "Sorting Algorithms",
+    "date": "2025-09-08T10:00:00.000Z",
+    "durationMinutes": 30,
+    "score": 98,
+    "completed": true
+  },
+  {
+    "studentId": "s007",
+    "studentName": "Gita Anggraeni",
+    "cohort": "D25",
+    "module": "Graph Theory",
+    "date": "2025-09-09T11:00:00.000Z",
+    "durationMinutes": 45,
+    "score": 92,
+    "completed": true
+  },
+  {
+    "studentId": "s007",
+    "studentName": "Gita Anggraeni",
+    "cohort": "D25",
+    "module": "Dynamic Programming",
+    "date": "2025-09-10T13:00:00.000Z",
+    "durationMinutes": 50,
+    "score": 90,
+    "completed": true
+  },
+  {
+    "studentId": "s007",
+    "studentName": "Gita Anggraeni",
+    "cohort": "D25",
+    "module": "Complexity Analysis",
+    "date": "2025-09-11T08:00:00.000Z",
+    "durationMinutes": 40,
+    "score": 95,
+    "completed": true
+  },
+  {
+    "studentId": "s007",
+    "studentName": "Gita Anggraeni",
+    "cohort": "D25",
+    "module": "Recursion Fundamentals",
+    "date": "2025-09-12T09:30:00.000Z",
+    "durationMinutes": 35,
+    "score": 97,
+    "completed": true
+  },
+  {
+    "studentId": "s007",
+    "studentName": "Gita Anggraeni",
+    "cohort": "D25",
+    "module": "Tree Traversal",
+    "date": "2025-09-13T10:00:00.000Z",
+    "durationMinutes": 45,
+    "score": 93,
+    "completed": true
+  },
+  {
+    "studentId": "s008",
+    "studentName": "Hani Safitri",
+    "cohort": "A25",
+    "module": "Intro to Algorithms",
+    "date": "2025-09-07T09:00:00.000Z",
+    "durationMinutes": 55,
+    "score": 76,
+    "completed": true
+  },
+  {
+    "studentId": "s008",
+    "studentName": "Hani Safitri",
+    "cohort": "A25",
+    "module": "Data Structures",
+    "date": "2025-09-09T11:00:00.000Z",
+    "durationMinutes": 60,
+    "score": 73,
+    "completed": true
+  },
+  {
+    "studentId": "s008",
+    "studentName": "Hani Safitri",
+    "cohort": "A25",
+    "module": "Sorting Algorithms",
+    "date": "2025-09-12T14:00:00.000Z",
+    "durationMinutes": 65,
+    "score": 79,
+    "completed": true
+  },
+  {
+    "studentId": "s008",
+    "studentName": "Hani Safitri",
+    "cohort": "A25",
+    "module": "Graph Theory",
+    "date": "2025-09-15T10:00:00.000Z",
+    "durationMinutes": 70,
+    "score": 74,
+    "completed": false
+  },
+  {
+    "studentId": "s009",
+    "studentName": "Indra Wijaya",
+    "cohort": "B25",
+    "module": "Intro to Algorithms",
+    "date": "2025-09-06T08:00:00.000Z",
+    "durationMinutes": 50,
+    "score": 87,
+    "completed": true
+  },
+  {
+    "studentId": "s009",
+    "studentName": "Indra Wijaya",
+    "cohort": "B25",
+    "module": "Data Structures",
+    "date": "2025-09-08T09:30:00.000Z",
+    "durationMinutes": 55,
+    "score": 84,
+    "completed": true
+  },
+  {
+    "studentId": "s009",
+    "studentName": "Indra Wijaya",
+    "cohort": "B25",
+    "module": "Sorting Algorithms",
+    "date": "2025-09-10T11:00:00.000Z",
+    "durationMinutes": 45,
+    "score": 89,
+    "completed": true
+  },
+  {
+    "studentId": "s009",
+    "studentName": "Indra Wijaya",
+    "cohort": "B25",
+    "module": "Graph Theory",
+    "date": "2025-09-13T13:00:00.000Z",
+    "durationMinutes": 60,
+    "score": 86,
+    "completed": true
+  },
+  {
+    "studentId": "s009",
+    "studentName": "Indra Wijaya",
+    "cohort": "B25",
+    "module": "Dynamic Programming",
+    "date": "2025-09-16T10:00:00.000Z",
+    "durationMinutes": 70,
+    "score": 82,
+    "completed": true
+  },
+  {
+    "studentId": "s010",
+    "studentName": "Joko Susilo",
+    "cohort": "C25",
+    "module": "Intro to Algorithms",
+    "date": "2025-09-07T10:00:00.000Z",
+    "durationMinutes": 40,
+    "score": 70,
+    "completed": true
+  },
+  {
+    "studentId": "s010",
+    "studentName": "Joko Susilo",
+    "cohort": "C25",
+    "module": "Data Structures",
+    "date": "2025-09-09T12:00:00.000Z",
+    "durationMinutes": 50,
+    "score": 66,
+    "completed": true
+  },
+  {
+    "studentId": "s010",
+    "studentName": "Joko Susilo",
+    "cohort": "C25",
+    "module": "Sorting Algorithms",
+    "date": "2025-09-12T08:30:00.000Z",
+    "durationMinutes": 55,
+    "score": 72,
+    "completed": false
+  },
+  {
+    "studentId": "s010",
+    "studentName": "Joko Susilo",
+    "cohort": "C25",
+    "module": "Graph Theory",
+    "date": "2025-09-15T14:00:00.000Z",
+    "durationMinutes": 60,
+    "score": 69,
+    "completed": false
+  },
+  {
+    "studentId": "s011",
+    "studentName": "Kartika Putri",
+    "cohort": "D25",
+    "module": "Intro to Algorithms",
+    "date": "2025-09-06T09:30:00.000Z",
+    "durationMinutes": 45,
+    "score": 83,
+    "completed": true
+  },
+  {
+    "studentId": "s011",
+    "studentName": "Kartika Putri",
+    "cohort": "D25",
+    "module": "Data Structures",
+    "date": "2025-09-08T10:30:00.000Z",
+    "durationMinutes": 50,
+    "score": 80,
+    "completed": true
+  },
+  {
+    "studentId": "s011",
+    "studentName": "Kartika Putri",
+    "cohort": "D25",
+    "module": "Sorting Algorithms",
+    "date": "2025-09-11T13:00:00.000Z",
+    "durationMinutes": 55,
+    "score": 85,
+    "completed": true
+  },
+  {
+    "studentId": "s011",
+    "studentName": "Kartika Putri",
+    "cohort": "D25",
+    "module": "Graph Theory",
+    "date": "2025-09-14T08:00:00.000Z",
+    "durationMinutes": 60,
+    "score": 82,
+    "completed": true
+  },
+  {
+    "studentId": "s011",
+    "studentName": "Kartika Putri",
+    "cohort": "D25",
+    "module": "Dynamic Programming",
+    "date": "2025-09-17T11:00:00.000Z",
+    "durationMinutes": 65,
+    "score": 78,
+    "completed": true
+  },
+  {
+    "studentId": "s012",
+    "studentName": "Lina Marlina",
+    "cohort": "A25",
+    "module": "Intro to Algorithms",
+    "date": "2025-09-08T08:00:00.000Z",
+    "durationMinutes": 60,
+    "score": 91,
+    "completed": true
+  },
+  {
+    "studentId": "s012",
+    "studentName": "Lina Marlina",
+    "cohort": "A25",
+    "module": "Data Structures",
+    "date": "2025-09-10T09:00:00.000Z",
+    "durationMinutes": 55,
+    "score": 88,
+    "completed": true
+  },
+  {
+    "studentId": "s012",
+    "studentName": "Lina Marlina",
+    "cohort": "A25",
+    "module": "Sorting Algorithms",
+    "date": "2025-09-12T10:30:00.000Z",
+    "durationMinutes": 50,
+    "score": 93,
+    "completed": true
+  },
+  {
+    "studentId": "s012",
+    "studentName": "Lina Marlina",
+    "cohort": "A25",
+    "module": "Graph Theory",
+    "date": "2025-09-14T14:00:00.000Z",
+    "durationMinutes": 60,
+    "score": 89,
+    "completed": true
+  },
+  {
+    "studentId": "s012",
+    "studentName": "Lina Marlina",
+    "cohort": "A25",
+    "module": "Dynamic Programming",
+    "date": "2025-09-16T11:30:00.000Z",
+    "durationMinutes": 70,
+    "score": 87,
+    "completed": true
+  },
+  {
+    "studentId": "s012",
+    "studentName": "Lina Marlina",
+    "cohort": "A25",
+    "module": "Complexity Analysis",
+    "date": "2025-09-18T08:00:00.000Z",
+    "durationMinutes": 45,
+    "score": 90,
+    "completed": true
+  }
+]

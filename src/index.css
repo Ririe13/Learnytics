@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Blue Tech Theme - Learning Insight Dashboard */
+    --background: 220 14% 96%; /* #F3F4F6 Light Gray */
+    --foreground: 222 47% 11%; /* #111827 Dark Slate */
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    /* Blue Royal Primary */
+    --primary: 217 91% 60%; /* #2563EB */
+    --primary-foreground: 0 0% 100%;
+
+    /* Navy Tech Secondary */
+    --secondary: 224 76% 40%; /* #1E40AF */
+    --secondary-foreground: 0 0% 100%;
+
+    /* Soft Blue Accent */
+    --accent: 213 94% 68%; /* #60A5FA */
+    --accent-foreground: 222 47% 11%;
+
+    /* Muted */
+    --muted: 220 14% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 217 91% 60%;
+
+    --radius: 0.75rem;
+
+    /* Chart Colors */
+    --chart-1: 217 91% 60%; /* Blue Royal */
+    --chart-2: 160 84% 39%; /* Emerald */
+    --chart-3: 263 70% 58%; /* Violet */
+    --chart-4: 38 92% 50%; /* Amber */
+    --chart-5: 213 94% 68%; /* Soft Blue */
+
+    /* Gradients - Indigo to Cyan */
+    --gradient-hero: linear-gradient(135deg, hsl(239 84% 67%) 0%, hsl(199 89% 48%) 100%);
+    --gradient-card: linear-gradient(120deg, hsl(0 0% 100%) 0%, hsl(220 14% 96%) 100%);
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 20px -4px hsl(217 91% 60% / 0.3);
+    --shadow-card: 0 2px 12px -2px hsl(222 47% 11% / 0.1);
+    
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .dark {
+    --background: 222 47% 11%; /* #111827 */
+    --foreground: 220 14% 96%;
+
+    --card: 224 71% 4%;
+    --card-foreground: 220 14% 96%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 220 14% 96%;
+
+    --primary: 213 94% 68%; /* Soft Blue */
+    --primary-foreground: 222 47% 11%;
+
+    --secondary: 217 91% 60%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 215 28% 17%;
+    --muted-foreground: 217 19% 62%;
+
+    --accent: 213 94% 68%;
+    --accent-foreground: 222 47% 11%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 215 28% 17%;
+    --input: 215 28% 17%;
+    --ring: 213 94% 68%;
+
+    --chart-1: 213 94% 68%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 263 60% 65%;
+    --chart-4: 38 80% 55%;
+    --chart-5: 217 91% 60%;
+
+    --shadow-soft: 0 4px 20px -4px hsl(0 0% 0% / 0.4);
+    --shadow-card: 0 2px 12px -2px hsl(0 0% 0% / 0.3);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "liga", "kern";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-hero);
+  }
+  
+  .card-gradient {
+    background-image: var(--gradient-card);
+  }
+  
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+  
+  .transition-bounce {
+    transition: var(--transition-bounce);
+  }
+  
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+  
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+}
