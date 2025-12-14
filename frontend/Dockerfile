@@ -10,6 +10,11 @@ RUN npm install
 COPY . .
 
 # Build the application
+# Declare ARG to consume build-time variable from Railway
+ARG VITE_API_URL
+# Set it as ENV so Vite can see it
+ENV VITE_API_URL=$VITE_API_URL
+
 RUN npm run build
 
 # Install serve to run the application
