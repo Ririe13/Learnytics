@@ -9,8 +9,15 @@ RUN npm install
 # Copy source
 COPY . .
 
-# Expose port
-EXPOSE 5173
+# Build the application
+RUN npm run build
 
-# Start command (Host 0.0.0.0 is needed for Docker)
-CMD ["npm", "run", "dev", "--", "--host"]
+# Install serve to run the application
+RUN npm install -g serve
+
+# Expose port (Optional documentation, Railway ignores this but good for local)
+EXPOSE 3000
+
+# Start command using shell form to allow $PORT expansion
+# Railway provides PORT env var. 'serve' listens on port 3000 by default but we can specify it.
+CMD npx serve -s dist -l $PORT
