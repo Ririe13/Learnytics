@@ -1,6 +1,16 @@
 # Learning Insight Dashboard
-
 A full-stack web application to visualize student learning insights with interactive charts, KPIs, and drill-down capabilities.
+
+Judul Proyek		: Learnytics - Grow Faster, Learn Smarter
+Case yang dipilih	: DC-08 AI Learning Insight 
+
+List Anggota: 
+M891D5X1655 - Rasti Agustina Maharani - Machine Learning - Aktif
+M891D5X1622 - Rahma Putri Prabowo- Machine Learning - Aktif
+R525D5X1538 - Nur Ramadhani Putri Wulandari- React & Back-End with AI - Aktif
+R891D5Y0711 - Hadyan Nafis Fakhira - React & Back-End with AI - Aktif
+R891D5Y0371 - Carel Alberto Karma- React & Back-End with AI - Aktif
+
 
 ## 🎯 Features
 
