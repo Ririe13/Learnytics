@@ -2,6 +2,7 @@
 A full-stack web application to visualize student learning insights with interactive charts, KPIs, and drill-down capabilities.
 
 Judul Proyek		: Learnytics - Grow Faster, Learn Smarter
+
 Case yang dipilih	: DC-08 AI Learning Insight 
 
 List Anggota: 
